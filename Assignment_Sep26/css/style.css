@@ -1,0 +1,136 @@
+/* Add all css styling here */
+/* Define a custom font called "myfont" */
+@font-face {
+    font-family: "myfont";
+    src: url("../font/Pacifico-Regular.ttf");
+}  
+@font-face {
+    font-family: "myfont_2";
+    src: url("../font/Reenie_Beanie/ReenieBeanie-Regular.ttf");
+}  
+@media (max-width: 600px){
+    .container {
+      flex-direction: column;
+    }
+    .main, .side {
+      width: 100%;
+    }
+}
+body{
+    background: url(../img/color.jpeg);  
+    background-position: center bottom;
+    background-size: cover;
+    height: 1000%;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    font-size: 2.0rem;
+    font-family: 'myfont';
+    color:rgb(254, 246, 179) ;
+    text-align: center;
+    letter-spacing: 0em;
+}
+
+header:hover {
+  color: rgb(238, 166, 241);
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main {
+    background: #ae5248;
+    width: 100%;
+    padding: 1em;
+    font-kerning: auto;
+    font-variant: small-caps;
+}
+
+.main .scrollable {
+
+    scrollbar-color: rgb(213, 223, 101) lightblue;
+    height: 50vw;
+    width: auto;
+  overflow: auto;
+}
+div span.mask h3 {
+    background: url(../img/cat.jpeg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'myfont_2';
+    font-size: 1.7rem;
+    color: #fefafd;
+    /* #6c665e; */
+    text-shadow: 20px 10px 20px #ab2d06;
+    text-align: center;
+    height: 60vw;
+    width: auto;
+  }
+  div span.pink {
+    color: #ea61df;
+    font-size: 2.0rem;
+    background:#f2d2c2;
+    /* text-shadow: 20px 20px 20px #fbf9f8; */
+  }
+  div span.pink:hover{
+    color: #4df048;
+    background:#e6f091;
+  }
+  footer {
+    text-align: left;
+    padding: 3px;
+    font-size: small;
+    color:rgb(254, 246, 179) ;
+    text-decoration: underline dotted rgb(0, 255, 221);
+  }
+
+/* .scrollable:before {
+  content: '';
+  position: absolute;
+  height: 50vw;
+  width: auto;
+  background-image: linear-gradient(to bottom, white 50%, rgba(255, 255, 255, 0) 100%);
+} */
+/* the entire body of the document
+body {
+  font-family: 'myfont';
+  background-color: #e7e4cb;
+  /* position: relative; */
+/* }
+
+h1{
+    text-align: center;
+    font-size:x-large ;
+} */ 
+/* p {
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+} */
+
+/* For any img elements inside a div with a class of "gallery", apply a borderand hover effect. */
+/* img {
+    width: 20vw;
+    height: 20vw;
+}  */
+
+/* div span.mask :last-child{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:aliceblue ;
+} */
+
+
+
+   /* .container {
+    display: flex;
+  } */
+  /* .side {
+    background: orange;
+    width: 30%;
+  } */
